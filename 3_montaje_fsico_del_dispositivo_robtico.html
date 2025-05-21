@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="es">
+<head>
+<link rel="stylesheet" type="text/css" href="base.css" />
+<link rel="stylesheet" type="text/css" href="content.css" />
+<link rel="stylesheet" type="text/css" href="nav.css" />
+<meta http-equiv="content-type" content="text/html;  charset=utf-8" />
+<title>3. Montaje físico del dispositivo robótico | TUTORIAL ESP32-CAM </title>
+<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+<meta name="author" content="YTR2006" />
+<link rel="license" type="text/html" href="http://creativecommons.org/licenses/by-sa/4.0/" />
+<meta name="generator" content="eXeLearning 2.9 - exelearning.net" />
+<!--[if lt IE 9]><script type="text/javascript" src="exe_html5.js"></script><![endif]-->
+<script type="text/javascript" src="exe_jquery.js"></script>
+<script type="text/javascript" src="common_i18n.js"></script>
+<script type="text/javascript" src="common.js"></script>
+<link rel="stylesheet" type="text/css" href="udl-content.css" />
+<script type="text/javascript" src="udl-content.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+</head>
+<body class="exe-web-site" id="exe-node-5"><script type="text/javascript">document.body.className+=" js"</script>
+<div id="content">
+<p id="skipNav"><a href="#main" class="sr-av">Saltar la navegación</a></p>
+<header id="header" ><div id="headerContent">TUTORIAL ESP32-CAM</div></header>
+<nav id="siteNav">
+<ul>
+   <li><a href="index.html" class="daddy main-node">TUTORIAL ESP32-CAM</a></li>
+   <li><a href="1_introduccin.html" class="no-ch">1. Introducción</a></li>
+   <li><a href="2_contextualizacin_y_reto.html" class="no-ch">2. Contextualización y reto</a></li>
+   <li id="active"><a href="3_montaje_fsico_del_dispositivo_robtico.html" class="active no-ch">3. Montaje físico del dispositivo robótico</a></li>
+   <li><a href="4_programacin.html" class="no-ch">4. Programación</a></li>
+   <li><a href="5_evaluacin.html" class="no-ch">5. Evaluación</a></li>
+   <li><a href="6_recursos_y_enlaces_de_inters.html" class="no-ch">6. Recursos y enlaces de interés</a></li>
+</ul>
+</nav>
+<div id='topPagination'>
+<nav class="pagination noprt">
+<a href="2_contextualizacin_y_reto.html" class="prev"><span><span>&laquo; </span>Anterior</span></a> <span class="sep">| </span><a href="4_programacin.html" class="next"><span>Siguiente<span> &raquo;</span></span></a>
+</nav>
+</div>
+<div id="main-wrapper">
+<section id="main">
+<header id="nodeDecoration"><h1 id="nodeTitle">3. Montaje físico del dispositivo robótico</h1></header>
+<article class="iDevice_wrapper UDLcontentIdevice em_iDevice" id="id7">
+<div class="iDevice emphasis1" >
+<header class="iDevice_header iDevice_header_noIcon"><h1 class="iDeviceTitle">Instrucciones paso a paso</h1></header>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<div id="ta7_134_2" class="block iDevice_content">
+<div class="exe-udlContent exe-udlContent-engagement"><section class="exe-udlContent-block js-hidden"><header class="exe-udlContent-header"><h2>Instrucciones paso a paso</h2></header><div class="exe-udlContent-content"><div class="exe-udlContent-content-main"><p><strong>PROMPT:</strong> Proporciona una guía detallada con imágenes o diagramas para facilitar el ensamblaje.​</p>
+<p><strong>Materiales necesarios:</strong><br>-1 placa ESP32-CAM<br>-1 protoboard (opcional)<br>-Cables jumper hembra-hembra (opcional)<br>-1 sensor de movimiento PIR (opcional)<br>-1 tarjeta microSD (opcional)<br>-1 cable USB para el módulo FTDI<br><br><strong>Paso 1: Conexión para programar la ESP32-CAM</strong><br>Configuración del módulo FTDI: asegúrate de que está en modo 5V, no en 3.3V.<br><strong></strong></p>
+<p><strong>Paso 2: Programación desde el ordenador</strong><br>-Abre el Arduino IDE.<br>-Instala el soporte para placas ESP32 (si aún no lo tienes).<br>-En el menú Herramientas, selecciona:</p>
+<p>1.Placa: AI Thinker ESP32-CAM<br>2.Puerto: el que detecte el FTDI<br>3.Abre el ejemplo: Archivo &gt; Ejemplos &gt; ESP32 &gt; Camera &gt; CameraWebServer.<br>4.Configura tu red WiFi en el código.<br>5.Sube el código a la placa.&nbsp;<br><br><strong>Paso 3: Alimentación y prueba</strong><br>Una vez cargado el programa:</p>
+<p>1.Abre el monitor serie del Arduino IDE a 115200 baudios para ver la IP.<br>2.Copia esa IP en el navegador web desde un dispositivo conectado a la misma red WiFi.<br>3.Deberías ver el panel de control de la cámara.</p>
+<p><strong>Paso 4: Integración de sensores (opcional)</strong><br>Puedes conectar un sensor PIR al pin GPIO13, por ejemplo, y modificar el código para que la cámara se active solo al detectar movimiento. También puedes guardar imágenes o vídeo en una tarjeta microSD, conectada a la ranura de la placa.</p>
+<p><strong>Paso 5: Presentación y montaje final</strong><br>Se recomienda montar todos los componentes en una base (como cartón pluma o una caja) y proteger la cámara con una carcasa si es posible. Cada grupo deberá presentar:</p>
+<p>-El dispositivo funcionando.<br>-Una explicación de cómo lo han montado y programado.<br>-Una propuesta de aplicación práctica en su entorno (instituto, casa, tienda, etc.).</p></div></div></section></div>
+</div>
+</div>
+</div>
+</div>
+</article>
+<article class="iDevice_wrapper UDLcontentIdevice em_iDevice" id="id8">
+<div class="iDevice emphasis1" >
+<header class="iDevice_header iDevice_header_noIcon"><h1 class="iDeviceTitle">Adaptaciones DUA</h1></header>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<div id="ta8_135_2" class="block iDevice_content">
+<div class="exe-udlContent exe-udlContent-representation"><section class="exe-udlContent-block js-hidden"><header class="exe-udlContent-header"><h2>Adaptaciones DUA</h2></header><div class="exe-udlContent-content"><div class="exe-udlContent-content-main"><p>PROMPT: Ofrece alternativas o apoyos para alumnado con necesidades específicas, como vídeos explicativos o instrucciones en audio.​</p>
+<p><strong>Vídeos Tutoriales en Español</strong><br>Estos vídeos ofrecen explicaciones paso a paso sobre el uso y configuración del ESP32-CAM, ideales para estudiantes que se benefician de recursos visuales y auditivos:</p>
+<p><a href="https://youtu.be/wlX2SDjCJL4?si=F3D4brAw2g5DHzv4">Cómo usar la ESP32-CAM - Tutorial - OV2640</a><br>Este vídeo proporciona una introducción detallada al uso del ESP32-CAM, incluyendo la configuración y programación básica.<br><br><a href="https://youtu.be/6l_viCqZrz4?si=cQ8dNinydGXr3kph">ESP32 CAM Conexión y Configuración Desde Cero Paso a Paso</a><br>Un tutorial completo que guía desde la conexión física hasta la configuración del ESP32-CAM utilizando el IDE de Arduino.<br><br><a href="https://youtu.be/z9j9DjOKc40?si=SvI5iXquo8CbLBrV">Esp32Cam puesta en marcha</a><br>Este vídeo muestra cómo iniciar y poner en funcionamiento la ESP32-CAM, destacando sus características principales.<br><br></p></div></div></section></div>
+</div>
+</div>
+</div>
+</div>
+</article>
+<div id="packageLicense" class="cc cc-by-sa">
+<p><span>Obra publicada con</span> <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Licencia Creative Commons Reconocimiento Compartir igual 4.0</a></p>
+</div>
+</section>
+</div>
+<div id='bottomPagination'>
+<nav class="pagination noprt">
+<a href="2_contextualizacin_y_reto.html" class="prev"><span><span>&laquo; </span>Anterior</span></a> <span class="sep">| </span><a href="4_programacin.html" class="next"><span>Siguiente<span> &raquo;</span></span></a>
+</nav>
+</div>
+</div>
+<p id="made-with-eXe"><a href="https://exelearning.net/" target="_blank" rel="noopener"><span>Creado con eXeLearning<span> (Ventana nueva)</span></span></a></p><script type="text/javascript" src="_intef_js.js"></script></body></html>
